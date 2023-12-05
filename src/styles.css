@@ -11,6 +11,6 @@
 }
 
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: var(--color-main);
+  font-family: fantasy;
+  background-color: var(--color-highlight);
 }

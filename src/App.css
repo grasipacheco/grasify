@@ -1,3 +1,18 @@
 .app {
-  margin: auto;
+  max-width: 360px;
+  padding: 1rem;
+}
+
+.app-header {
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  background-color: var(--color-main);
+  color: var(--color-bright);
+  text-align: center;
+}
+
+.app-albums {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
