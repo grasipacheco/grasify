@@ -14,7 +14,8 @@ export default function App() {
               title={info.title}
               artist={info.artist}
               albumCover={info.image.url}
-            ></AlbumCard>
+              songs={info.tracks}
+            />
           </li>
         ))}
       </ul>
