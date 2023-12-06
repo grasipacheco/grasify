@@ -5,7 +5,7 @@ export default function AlbumList({ title, albums }) {
   return (
     <>
       <section>
-        <h2>{title}</h2>
+        <h2 className="album-list-header">{title}</h2>
         <ul className="app-albums">
           {albums.map((album) => (
             <li key={album.id}>
