@@ -14,7 +14,7 @@ export default function App() {
         const albums = await response.json();
         setAlbums(albums);
       } catch (error) {
-        console.log(error);
+        console.error("Failed to fetch data", error);
       }
     }
     fetchData();
