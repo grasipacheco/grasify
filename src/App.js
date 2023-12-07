@@ -23,7 +23,7 @@ export default function App() {
   return (
     <>
       <h1 className="app-header">Grasify</h1>
-      <AlbumList albums={albums} title={"Featured"} />;
+      <AlbumList albums={albums} title={"Featured 👾"} />;
     </>
   );
 }
