@@ -18,7 +18,6 @@ export default function App() {
       }
     }
     fetchData();
-    console.log(fetchData);
   }, []);
   return (
     <>
