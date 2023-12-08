@@ -1,6 +1,6 @@
 .app {
-  max-width: 360px;
   padding: 1rem;
+  gap: 1.5rem;
 }
 
 .app-header {
